@@ -82,12 +82,15 @@ header form fieldset {
 	text-align: right;
 	margin: 15px 0 0 0;
 }
+header form fieldset input {
+	border: none;
+	border-radius: 0;
+}
 header form fieldset .search-input {
 	font-size: 0.75em; /*12px / 16px*/
 	height: 28px;
 	width: 197px;
 	background: url('../images/search-bg.png') repeat-x;
-	border: none;
 	padding: 0 0 0 5px;
 	margin: 0 -5px 0 0;
 }
